@@ -1,6 +1,6 @@
 'use strict';
 
-module.exports.hello = (event, context, callback) => {
+module.exports.signupSoldier = (event, context, callback) => {
 
     console.log("hello dez nutz");
 
