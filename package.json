@@ -4,7 +4,8 @@
     "description": "Creates Twitter Net Neutrality Campaign Bots",
     "main": "handler.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "start": "serverless invoke local --function signupSoldier",
+        "deploy": "serverless deploy"
     },
     "repository": {
         "type": "git",
@@ -18,14 +19,13 @@
         "Lambda",
         "aws"
     ],
-    "scripts": {
-        "start": "serverless invoke local --function signupSoldier",
-        "deploy": "serverless deploy"
-    },
     "author": "C3r#alK1ll3r",
     "license": "UNLICENSED",
     "bugs": {
         "url": "https://github.com/Save-Net-Neutrality/soldier-signup/issues"
     },
-    "homepage": "https://github.com/Save-Net-Neutrality/soldier-signup#readme"
+    "homepage": "https://github.com/Save-Net-Neutrality/soldier-signup#readme",
+    "dependencies": {
+        "aws-sdk": "^2.157.0"
+    }
 }
